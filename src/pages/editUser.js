@@ -1,6 +1,6 @@
 import {useContext, useEffect, useState} from "react";
 import Button from "../components/Button";
-import Input from "../components/Input/index";
+import Input from "../components/Input";
 import GlobalContext from "../Context/globalContexto";
 import api from "../service/api";
 import {Navigate} from "react-router-dom";

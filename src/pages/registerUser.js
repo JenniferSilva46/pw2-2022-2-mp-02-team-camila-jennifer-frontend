@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import Button from "../components/Button";
-import Input from "../components/Input/index";
+import Input from "../components/Input";
 
 import { Navigate, Link } from "react-router-dom";
 import api from "../service/api";

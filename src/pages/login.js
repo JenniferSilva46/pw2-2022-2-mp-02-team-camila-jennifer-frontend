@@ -1,8 +1,8 @@
 import {useContext, useEffect, useState} from "react";
 import Button from "../components/Button";
-import Input from "../components/Input/index";
+import Input from "../components/Input";
 import api from "../service/api";
-import GlobalContext from './../Context/globalContexto'
+import GlobalContext from '../Context/globalContexto'
 import {Link, Navigate} from 'react-router-dom';
 
 const Login = () => {
